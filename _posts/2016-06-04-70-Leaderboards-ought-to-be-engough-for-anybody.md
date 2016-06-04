@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Play Games: 70 Leaderboards Ought to Be Enough for Anybody
+title: Google Play Games - 70 Leaderboards Ought to Be Enough for Anybody
 ---
 
 {{ page.title }}
