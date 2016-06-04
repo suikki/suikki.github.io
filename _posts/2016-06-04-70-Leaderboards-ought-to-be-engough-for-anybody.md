@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Google Play Games - 70 leaderboards ought to be enough for anybody
+permalink: /:categories/:year/:title
 slug: 70-leaderboards-ought-to-be-enough-for-anybody
 category: dev
 tags: android, games, google play services
-published: false
+published: true
+comments: true
 ---
 
 *Google Play Games Services* allows games to easily integrate stuff like achievements, leaderboards and even online multiplayer. It's the obvious service to use on Android, as almost every user is pretty much guaranteed to have an account ready to use without a hassle.
