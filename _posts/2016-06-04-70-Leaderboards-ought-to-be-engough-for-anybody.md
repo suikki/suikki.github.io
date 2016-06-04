@@ -3,9 +3,6 @@ layout: post
 title: Google Play Games - 70 Leaderboards Ought to Be Enough for Anybody
 ---
 
-{{ page.title }}
-================
-
 *Google Play Games Services* allows games to easily integrate stuff like achievements, leaderboards and even online multiplayer. It's the obvious service to use on Android, as almost every user is pretty much guaranteed to have an account ready to use without a hassle.
 
 I had glanced at the API when implementing support for Apple's *Game Center* to make sure the same game features would work on both. However, I missed one major limitation: on the Google service **there is a hard maximum limit of 70 leaderboards per game**.

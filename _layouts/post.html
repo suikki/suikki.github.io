@@ -3,12 +3,14 @@ layout: default
 comments: true
 ---
 
-<h2 class="post_title">
+<h1 class="post_title">
 	{{ page.title }}
+	{% comment %}
 	{% if page.date %}
 		<small>{{ page.date | date_to_string }}</small>
 	{% endif %}
-</h2>
+	{% endcomment %}
+</h1>
 
 <div id="post_content">
 	{{ content }}
