@@ -51,7 +51,7 @@ General layout.
 }
 .header a:hover {
 	color: white;
-	text-shadow: 0 0 2.4em #ffffff;
+	text-shadow: 0 0 0.2em #ffffff;
 }
 
 .content {
