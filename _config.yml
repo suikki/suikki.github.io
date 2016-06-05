@@ -20,10 +20,10 @@ permalink: /:year/:title
 # Site owner
 owner:
   name: Olli Kallioinen
-  avatar: blippo.jpg
+  avatar: /images/blippo.jpg
   email: olli.kallioinen@iki.fi
-  disqus-shortname: suikki
   twitter: OKallioinen
   github: suikki
 
+disqus-shortname: suikki
 google-analytics: UA-78776846-1
