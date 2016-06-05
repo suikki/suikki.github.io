@@ -25,6 +25,5 @@ owner:
   disqus-shortname: suikki
   twitter: OKallioinen
   github: suikki
-  google:
-    plus: #username
-    analytics:
+
+google-analytics: UA-78776846-1
