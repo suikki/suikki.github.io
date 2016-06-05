@@ -4,14 +4,21 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>{{ page.title }}</title>
 	<link rel="stylesheet" href="/css/main.css" type="text/css"/>
+	{% feed_meta %}
 </head>
 
 <body>
 
 <div class="page">
-	<div class="header"></div>
+	<div class="header">
+		{% include navigation.html %}
+	</div>
+
 	<div class="content">
 		{{ content }}
+		{% if page.comments %}
+			{% include disqus.html %}
+		{% endif %}
 	</div>
 	{% include links.html %}
 </div>

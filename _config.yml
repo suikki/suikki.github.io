@@ -6,20 +6,15 @@ description: My devblog
 url: https://suikki.github.io
 
 # Jekyll configuration
-permalink: /:year/:title
-
-#markdown:    kramdown
-#sass:
-#  sass_dir: _sass
-#  style: compressed
-#gems:
-#  - jekyll-sitemap
-#  - jekyll-gist
-#  - jekyll-feed
+permalink: /:categories/:year/:title
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
 
 # Site owner
 owner:
   name: Olli Kallioinen
+  nick: suikki
   avatar: /images/blippo.jpg
   email: olli.kallioinen@iki.fi
   twitter: OKallioinen

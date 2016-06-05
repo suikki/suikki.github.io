@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
+{% if page.author %}
+	{% assign author = site.data.authors[page.author] %}
+{% else %}
+	{% assign author = site.owner %}
+{% endif %}
 
 <h1 class="post_title">
 	{{ page.title }}
-	{% comment %}
 	{% if page.date %}
-		<small>{{ page.date | date_to_string }}</small>
+		<span class="date">{{ page.date | date: "%Y-%m-%d" }}</span>
 	{% endif %}
-	{% endcomment %}
+	<span class="author_nick">{{ author.nick }}</span>
 </h1>
 
 <ul class="post_tags">
@@ -18,7 +22,3 @@ layout: default
 <div class="post_content">
 	{{ content }}
 </div>
-
-{% if page.comments %}
-{% include disqus.html %}
-{% endif %}

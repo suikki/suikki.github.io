@@ -1,16 +1,20 @@
 ---
 layout: default
-title: Suikki
+title: Suikki - Blog
 ---
 
 <div id="home">
-	<h1>Blog Posts</h1>
-	<ul class="posts">
-		{% for post in site.posts %}
-		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> 
-		<ul class="post_tags">
-			{% for tag in post.tags %}<li><a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged with #{{ tag }}">#{{ tag }}</a></li>{% endfor %}
-		</ul>
-		{% endfor %}
+	<h2>Blogs</h2>
+
+	<ul class="post_list">
+	{% for post in site.posts %}
+		<li>
+			<a class="post_list_title" href="{{ post.url }}">{{ post.title }}</a>
+			<span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+			<ul class="post_tags">
+				{% for tag in post.tags %}<li><a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged with #{{ tag }}">#{{ tag }}</a></li>{% endfor %}
+			</ul>
+		</li>
+	{% endfor %}
 	</ul>
 </div>
