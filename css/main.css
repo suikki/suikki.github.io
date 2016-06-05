@@ -16,7 +16,7 @@ General layout.
 	background-color: #ffffff;
 	box-shadow: 0 3px 7px rgba(100, 100, 100, 0.3);
 
-	background-image: url('/images/slice2.jpg');
+	background-image: url('/ui/slice2.jpg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 }
