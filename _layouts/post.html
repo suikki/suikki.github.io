@@ -11,7 +11,11 @@ layout: default
 	{% endcomment %}
 </h1>
 
-<div id="post_content">
+<ul class="post_tags">
+	{% for tag in page.tags %}<li><a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged with #{{ tag }}">#{{ tag }}</a></li>{% endfor %}
+</ul>
+
+<div class="post_content">
 	{{ content }}
 </div>
 

@@ -1,0 +1,30 @@
+# Site wide configuration
+title: Suikki devblog
+locale: en_US
+description: My devblog
+url: http://localhost:4000
+#url: https://suikki.github.io
+
+# Jekyll configuration
+permalink: /:year/:title
+
+#markdown:    kramdown
+#sass:
+#  sass_dir: _sass
+#  style: compressed
+#gems:
+#  - jekyll-sitemap
+#  - jekyll-gist
+#  - jekyll-feed
+
+# Site owner
+owner:
+  name: Olli Kallioinen
+  avatar: blippo.jpg
+  email: olli.kallioinen@iki.fi
+  disqus-shortname: suikki
+  twitter: OKallioinen
+  github: suikki
+  google:
+    plus: #username
+    analytics:

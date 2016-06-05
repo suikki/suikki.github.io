@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Google Play Games - 70 leaderboards ought to be enough for anybody
-permalink: /:categories/:year/:title
-slug: 70-leaderboards-ought-to-be-enough-for-anybody
+title: 70 Leaderboards Ought to Be Enough for Anybody
 category: dev
-tags: android, games, google play services
-published: true
-comments: true
+#tags: [android, games, google play services, asdasfsf, asfasf, asfasfasfgdh, dsfhdfh, adfhfdjj, dfaaste, asdfsfdhe, sdagseh]
+tags: [android, games, google play services]
+published: false
+comments: false
 ---
 
 *Google Play Games Services* allows games to easily integrate stuff like achievements, leaderboards and even online multiplayer. It's the obvious service to use on Android, as almost every user is pretty much guaranteed to have an account ready to use without a hassle.
@@ -19,8 +18,8 @@ I also basically wasted 2 days trying to figure out if there was a feasible way 
 
 This basically limits every game like this to 70 levels max forever. If the game gets popular and we want to release more levels we have to make it a separate app. I really hate that.
 
-No solution in sight?
----------------------
+My hands are tied
+--------------
 
 There really isn't much I can do but to limit the level count for now and hope that Google improves their service, or start researching using some third party service and hope they are still up when your game comes out.
 
