@@ -2,8 +2,8 @@
 title: Suikki devblog
 locale: en_US
 description: My devblog
-url: http://localhost:4000
-#url: https://suikki.github.io
+#url: http://localhost:4000
+url: https://suikki.github.io
 
 # Jekyll configuration
 permalink: /:year/:title
