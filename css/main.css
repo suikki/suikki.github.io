@@ -159,6 +159,14 @@ Blog post listing layout.
 	color: #a0a0a0;
 }
 
+.post_list .author_nick {
+	color: #808080;
+}
+
+.post_list .author_nick::before {
+    content: "by ";
+}
+
 /*
 Blog post layout.
 */
@@ -166,14 +174,18 @@ Blog post layout.
 .post_title {
 }
 
+.post_title .date {
+	font-size: 40%;
+	color: #808080;
+}
+
 .post_title .author_nick {
 	font-size: 40%;
 	color: #808080;
 }
 
-.post_title .date {
-	font-size: 40%;
-	color: #808080;
+.post_title .author_nick::before {
+    content: "by ";
 }
 
 /* Tag list */
