@@ -1,0 +1,7 @@
+
+TODO:
+
+- Add favicon.ico & favicon.png
+- When sharing on google plus the link image defaults to twitter icon. Add some kind of default image to each blog post.
+- Simple support for multiple authors
+- Browsing to /<category> should show posts on that category
