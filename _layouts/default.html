@@ -16,6 +16,10 @@
 
 	<div class="content">
 		{{ content }}
+		{% if page.share %}
+			{% include share.html %}
+		{% endif %}
+		<div class="content_end"></div>
 		{% if page.comments %}
 			{% include disqus.html %}
 		{% endif %}

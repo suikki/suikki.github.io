@@ -1,0 +1,5 @@
+<div class="share">
+	<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Share on Facebook" itemprop="Facebook"><img src="/ui/facebook.png" /> Like</a>
+	<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Share on Google Plus" itemprop="GooglePlus"><img src="/ui/google.png" /> +1</a>
+	<a href="https://twitter.com/intent/tweet?hashtags={{ page.tags | join: ',' | remove: ' ' }}&amp;text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ site.url }}{{ page.url }}{% if author.twitter %}&amp;via={{ author.twitter }}{% endif %}" target="_blank" title="Share on Twitter" itemprop="Twitter"><img src="/ui/twitter.png" /> Tweet</a>
+</div>

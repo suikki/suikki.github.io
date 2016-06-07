@@ -55,8 +55,25 @@ General layout.
 }
 
 .content {
-	padding: 0em 3em 0em 4em;
+	padding: 0em 4em 0em 4em;
 	min-height: 22em;
+}
+
+.share {
+	min-height: 3em;
+}
+.share img {
+	margin-top: -0.2em;
+	margin-left: 1.5em;
+	vertical-align: middle;
+	width: 2em;
+	height: 2em;
+}
+.share a {
+	float: right;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .links {
@@ -184,5 +201,9 @@ Blog post layout.
 }
 
 .post_content {
-	margin: 0 0 4.5em 0;
+	margin: 0 0 1.5em 0;
+}
+
+.content_end {
+	margin: 0 0 3.5em 0;
 }
