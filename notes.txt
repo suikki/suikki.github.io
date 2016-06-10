@@ -1,0 +1,19 @@
+Installing jekyll on windows:
+-----------------------------
+
+<start admin cmd>
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+choco install ruby -y
+<restart cmd>
+gem install jekyll
+gem install github-pages
+
+
+Generating test site:
+---------------------
+jekyll new <testsitename>
+
+
+Running site:
+---------------------
+jekyll serve
