@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Play: Unexpected error (4800403)
+title: Google Play - Unexpected error (4800403)
 category: dev
 tags: [google play services]
 published: true
